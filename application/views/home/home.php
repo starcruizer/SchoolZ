@@ -10,12 +10,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <main class="page landing-page">
         <section class="clean-block slider dark">
-            <div class="container" style="margin:0;">
+            <div class="container" >
                 <div class="carousel slide" data-ride="carousel" id="carousel-1">
                     <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/scenery/image1.jpg" alt="Slide Image" style="font-size:16px;"></div>
-                        <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/scenery/image4.jpg" alt="Slide Image"></div>
-                        <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/scenery/image6.jpg" alt="Slide Image"></div>
+                        <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/slider/1.JPG" alt="Slide Image" style="font-size:16px;"></div>
+                        <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/slider/2.JPG" alt="Slide Image"></div>
+                        <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/slider/3.JPG" alt="Slide Image"></div>
                     </div>
                     <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button"
                             data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
@@ -25,55 +25,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li data-target="#carousel-1" data-slide-to="2"></li>
                     </ol>
                 </div>
-                <div style="margin:10px;margin-top:20px;"><span style="font-family:Oswald, sans-serif;"><br><strong>ABOUT &lt;br&gt;Loyola School,</strong>&nbsp; Taldanga<br></span>
-                    <p>Schools latest</p>
-                </div>
-            </div>
-        </section>
-        <section class="clean-block clean-hero" style="background-image:url(&quot;/assets/img/tech/image4.jpg&quot;);color:rgba(9, 162, 255, 0.85);">
-            <div class="text">
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p><button class="btn btn-outline-light btn-lg" type="button">Learn More</button></div>
-        </section>
-        <section class="clean-block clean-info dark">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">Info</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-md-6"><img class="img-thumbnail" src="/assets/img/scenery/image5.jpg"></div>
-                    <div class="col-md-6">
-                        <h3>Lorem impsum dolor sit amet</h3>
-                        <div class="getting-started-info">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div><button class="btn btn-outline-primary btn-lg" type="button">Join Now</button></div>
-                </div>
-            </div>
-        </section>
-        <section class="clean-block features">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">Features</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-5 feature-box"><i class="icon-star icon"></i>
-                        <h4>Bootstrap 4</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-pencil icon"></i>
-                        <h4>Customizable</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-screen-smartphone icon"></i>
-                        <h4>Responsive</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-refresh icon"></i>
-                        <h4>All Browser Compatibility</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
+                <div style="margin-top:20px;">
+                    <span style="font-family:Oswald, sans-serif; font-size: 40px; color: #002d70 ">
+                        <span style="font-weight: 400">ABOUT</span><br>
+                        <span style="font-weight:bold"><span style="text-decoration: underline; text-decoration-color:rgb(245,228,8);">THE LOYOLA</span> SCHOOL, </span> 
+                        <span style="font-weight: 200">Taldanga</span>
+                        
+                    </span>
+                    <br>
+                    <br/>
+                    <p>Loyola School, Taldanga, is established and administered by the Jamshedpur Diocesan Educational Society belonging to the Diocese of Jamshedpur,
+                         a province of the Catholic Church. The school is assisted in the task by the Sisters of Charity of Jesus and Mary, a women Religious order 
+                         belonging to the Catholic Church.
+                    </p>
+                    <p>
+                        As a Catholic School Loyola, Taldanga, draws its inspiration and guidance from the life and teachings of Jesus Christ.
+                         Special attention is paid to faith formation of the Catholic students, through weekly religion classes. Eucharistic celebration, 
+                         recollections and Annual retreat. The religion beliefs of all students are respected.
+                    </p>
                 </div>
             </div>
         </section>

@@ -1,2 +1,2 @@
 # Schoolz
-## A school wesite base don CodeIgniter framework for PHP
+## A school website based on CodeIgniter framework for PHP

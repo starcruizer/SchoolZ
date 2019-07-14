@@ -6,11 +6,6 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('home/home');
-	}
-
-	public function about(){
-
-		$this->load->view('home/about');
-	}
+	}	
 	
 }
