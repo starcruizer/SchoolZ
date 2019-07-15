@@ -7,10 +7,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- including header -->
 <?php  include_once(APPPATH.'/views/templates/header.php'); ?>
-
+    
     <main class="page landing-page">
         <section class="clean-block slider dark">
-            <div class="container" >
+            <div class="container_two" >
                 <div class="carousel slide" data-ride="carousel" id="carousel-1">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/slider/1.JPG" alt="Slide Image" style="font-size:16px;"></div>
@@ -25,6 +25,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li data-target="#carousel-1" data-slide-to="2"></li>
                     </ol>
                 </div>
+            </div>
+            <div class="container">
                 <div style="margin-top:20px;">
                     <span style="font-family:Oswald, sans-serif; font-size: 40px; color: #002d70 ">
                         <span style="font-weight: 400">ABOUT</span><br>
@@ -45,6 +47,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </p>
                 </div>
             </div>
+
+            <section class="clean-block clean-hero" style="background-image:url(&quot;assets/img/background/students.jpg&quot;);color:rgba(33, 33, 33, 0.66);">
+                <div class="container text news_section ">
+                    
+                    <span style="font-family:Oswald, sans-serif; font-size: 40px; color: #ffffff; margin:0;">
+                        <span style="font-weight: 400">LATEST</span>
+                        <span style="text-decoration: underline; text-decoration-color:rgb(245,228,8); font-weight:700;">NEWS & EVENTS</span>         
+                    </span>
+                    
+                </div>
+            </section>
+
         </section>
         
     </main>

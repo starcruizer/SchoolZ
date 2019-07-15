@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 col-lg-6">
-                    <div style="height:100%;vertical-align:middle;"><img class="img-fluid" src="/assets/img/LoyolaLogo.png" width="50" height="50" style="width:100px;margin:auto;margin-top:30px;border-right:3px solid white;vertical-align:middle;"><span style="font-family:Oswald, sans-serif;font-weight:700;color:rgb(255,255,255);font-size:2em;position:relative;vertical-align:text-top;padding-left:10px;">Loyola School,&nbsp;</span>
+                    <div style="height:100%;vertical-align:middle;"><img class="img-fluid" src="/assets/img/LoyolaLogo.png" style="width:120px;margin:auto;margin-top:30px;border-right:3px solid white;vertical-align:middle; padding-right:10px;"><span style="font-family:Oswald, sans-serif;font-weight:700;color:rgb(255,255,255);font-size:2em;position:relative;vertical-align:text-top;padding-left:10px;">Loyola School,&nbsp;</span>
                         <span
                             style="font-family:Oswald, sans-serif;font-weight:200;font-size:2em;color:rgb(255,255,255);vertical-align:text-top;">Taldanga</span>
                     </div>
